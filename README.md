@@ -29,7 +29,8 @@ This server is the backbone of the system. It has the following core functionali
 ### Architectural Overview
 This is written from the high level system architecture shown below. You can find some pointers below highlighting the core idea in a nutshell. The [routes](#routes) & [messaging](#messaging) sections may not even make sense to you if you don't have an understanding of what's going on. Feel free to open a new issue if you find any part of this documentation confusing or hard to understand.
 
-![Architecture](https://github.com/Tecathlon-STIST/server/assets/50231856/3eb63d26-cace-4e03-8e61-8d79be6b2043)
+![Architecture]([https://github.com/Tecathlon-STIST/server/assets/50231856/3eb63d26-cace-4e03-8e61-8d79be6b2043](https://github.com/Tecathlon-STIST/server/assets/109507621/fb582df6-fb01-436f-b617-94c681362767))
+<img width="921" alt="241353715-3eb63d26-cace-4e03-8e61-8d79be6b2043" src="https://github.com/Tecathlon-STIST/server/assets/109507621/fb582df6-fb01-436f-b617-94c681362767">
 
 *In a nutshell...*
   * Each vehicle can register itself to the server & get a corresponding `vid`. It can then create & host a room for itself in the server, which will be identified by this `vid`. The vehicle will be in control of that room.
