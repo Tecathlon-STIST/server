@@ -26,10 +26,6 @@ async fn hello() -> impl Responder {
     fs::NamedFile::open_async("./src/landing/index.html").await
 }
 
-#[get("/logo")]
-async fn logo() -> impl Responder {
-    fs::NamedFile::open_async("./src/landing/logo.png").await
-}
 
 #[get("/join/vehicle/{uid}")]
 async fn joinvehicle(req: HttpRequest, stream: web::Payload, context: web::Data<Manager>, path: Path<String>) -> impl Responder {
